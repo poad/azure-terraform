@@ -28,8 +28,7 @@ jobs:
         name: Install pnpm
         with:
           run_install: |
-            - recursive: true
-              cwd: example
+            - recursive: false
               args: [--no-frozen-lockfile, --strict-peer-dependencies]
           package_json_file: example/package.json
 
