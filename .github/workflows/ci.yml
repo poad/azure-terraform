@@ -29,8 +29,8 @@ jobs:
           run_install: |
             - recursive: true
               cwd: example
-              package_json_file: example/package.json
               args: [--no-frozen-lockfile, --strict-peer-dependencies]
+          package_json_file: example/package.json
 
       - name: Build
         run: pnpm build
