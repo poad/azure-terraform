@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  example:
     dependencies:
       '@cdktf/provider-azurerm':
         specifier: ^12.25.0
