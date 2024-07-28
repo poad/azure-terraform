@@ -19,7 +19,7 @@ class MyStack extends TerraformStack {
     });
 
     new resourceGroup.ResourceGroup(this, 'ResourceGroup', {
-      name: 'example',
+      name: 'rg-example-japaneast',
       location: 'japaneast'
     });
 
