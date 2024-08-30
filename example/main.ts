@@ -8,7 +8,6 @@ class MyStack extends TerraformStack {
     super(scope, id);
 
     new AzurermProvider(this, 'azuream', {
-      features: {},
     });
 
     new AzurermBackend(this, {
