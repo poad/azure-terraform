@@ -11,8 +11,8 @@ importers:
   example:
     dependencies:
       '@cdktf/provider-azurerm':
-        specifier: ^13.9.0
-        version: 13.9.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)
+        specifier: ^13.10.0
+        version: 13.10.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)
       cdktf:
         specifier: ^0.20.10
         version: 0.20.10(constructs@10.4.2)
@@ -206,8 +206,8 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@cdktf/provider-azurerm@13.9.0':
-    resolution: {integrity: sha512-nPfEu4sNJ2yn3EqrI3qCwyhN6SMVAWVu5oSUDLZFCk+9HPkCY79tzCYr6ftxSDyzTw21NbmtkOd8efzSixchVQ==}
+  '@cdktf/provider-azurerm@13.10.0':
+    resolution: {integrity: sha512-4MAVO3Cap0QHJJQvbs8RMJqhIkb+uJazGS5EJTqD65CvLHC5Z+FUPlMXzM/eLkcoey58zFL9eTHrdHlQCcc+aw==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -579,8 +579,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.57:
-    resolution: {integrity: sha512-xS65H/tqgOwUBa5UmOuNSLuslDo7zho0y/lgQw35pnrqiZh7UOWHCeL/Bt6noJATbA6tpQJGCifsFsIRZj1Fqg==}
+  electron-to-chromium@1.5.62:
+    resolution: {integrity: sha512-t8c+zLmJHa9dJy96yBZRXGQYoiCEnHYgFwn1asvSPZSUdVxnB62A4RASd7k41ytG3ErFBA0TpHlKg9D9SQBmLg==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -1458,7 +1458,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@cdktf/provider-azurerm@13.9.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-azurerm@13.10.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.20.10(constructs@10.4.2)
       constructs: 10.4.2
@@ -1835,7 +1835,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001680
-      electron-to-chromium: 1.5.57
+      electron-to-chromium: 1.5.62
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -1935,7 +1935,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.57: {}
+  electron-to-chromium@1.5.62: {}
 
   emittery@0.13.1: {}
 
