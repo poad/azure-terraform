@@ -20,7 +20,7 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "@cdktf/provider-azurerm": "^13.28.0",
+    "@cdktf/provider-azurerm": "^13.29.0",
     "cdktf": "^0.20.12",
     "constructs": "^10.4.2"
   },
