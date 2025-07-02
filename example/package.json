@@ -20,13 +20,13 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "@cdktf/provider-azurerm": "^14.3.0",
+    "@cdktf/provider-azurerm": "^14.4.0",
     "cdktf": "^0.21.0",
     "constructs": "^10.4.2"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.0.8",
+    "@types/node": "^24.0.10",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
