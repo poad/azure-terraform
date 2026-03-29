@@ -1,0 +1,11 @@
+{
+  "language": "typescript",
+  "app": "pnpm dlx ts-node main.ts",
+  "projectId": "bc955d92-8950-4161-a1ea-d5ec249d43a0",
+  "sendCrashReports": "true",
+  "terraformProviders": ["azurerm@~> 3.0"],
+  "terraformModules": [],
+  "context": {
+
+  }
+}
