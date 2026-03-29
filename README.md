@@ -4,7 +4,7 @@
 
 - terraform cli
 - azure cli
-- Node.js 18.x or later
+- Node.js 24.x or later
 - CDK for Terraform
 
 ## Usage
@@ -21,7 +21,7 @@ az login
 ```shell
 cd ../example
 pnpm i
-cdktf deploy
+cdktn deploy
 ```
 
 example という ResourceGroup がデプロイされる。
