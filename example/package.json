@@ -20,16 +20,16 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "@cdktn/provider-azurerm": "^15.6.0",
+    "@cdktn/provider-azurerm": "^15.9.0",
     "cdktn": "^0.22.1",
     "constructs": "^10.6.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.12.0",
+    "@types/node": "^24.12.2",
     "jest": "^30.3.0",
-    "ts-jest": "^29.4.6",
+    "ts-jest": "^29.4.9",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }
