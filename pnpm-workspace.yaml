@@ -1,5 +1,8 @@
 packages:
   - example
 
+allowBuilds:
+  unrs-resolver: false
+
 overrides:
   glob@>=10.3.7 <=11.0.3: '>=11.1.0'
