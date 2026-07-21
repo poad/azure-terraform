@@ -20,9 +20,9 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "@cdktn/provider-azurerm": "^16.8.0",
+    "@cdktn/provider-azurerm": "^16.9.0",
     "cdktn": "^0.23.4",
-    "constructs": "^10.6.0"
+    "constructs": "^10.7.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",

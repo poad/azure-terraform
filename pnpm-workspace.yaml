@@ -4,5 +4,9 @@ packages:
 allowBuilds:
   unrs-resolver: false
 
+minimumReleaseAgeExclude:
+  - brace-expansion@1.1.16
+
 overrides:
+  brace-expansion@<1.1.16: ^1.1.16
   glob@>=10.3.7 <=11.0.3: '>=11.1.0'
