@@ -4,9 +4,15 @@ packages:
 allowBuilds:
   unrs-resolver: false
 
+blockExoticSubdeps: true
+
+minimumReleaseAge: 10080 # 7 days in minutes
+
 minimumReleaseAgeExclude:
-  - brace-expansion@1.1.16
+  - pnpm@11.18.0
+  - brace-expansion@5.0.8
 
 overrides:
   brace-expansion@<1.1.16: ^1.1.16
+  brace-expansion@<=5.0.7: ^5.0.8
   glob@>=10.3.7 <=11.0.3: '>=11.1.0'
