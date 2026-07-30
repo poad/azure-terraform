@@ -1513,6 +1513,17 @@ packages:
           targets:
             - cpu: x64
               os: win32
+        - resolution:
+            archive: tarball
+            bin:
+              node: bin/node
+            integrity: sha256-aWl5yu+SUFrXVmo2dMqak9hVjigvNOeJkYHAMhghrl8=
+            type: binary
+            url: https://unofficial-builds.nodejs.org/download/release/v24.18.1/node-v24.18.1-linux-x64-musl.tar.gz
+          targets:
+            - cpu: x64
+              os: linux
+              libc: musl
     version: 24.18.1
     hasBin: true
 
