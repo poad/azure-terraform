@@ -2,6 +2,7 @@ packages:
   - example
 
 allowBuilds:
+  '@parcel/watcher': false
   unrs-resolver: false
 
 blockExoticSubdeps: true
@@ -9,10 +10,8 @@ blockExoticSubdeps: true
 minimumReleaseAge: 10080 # 7 days in minutes
 
 minimumReleaseAgeExclude:
-  - pnpm@11.18.0
-  - brace-expansion@5.0.8
+  - pnpm@12.17.0
 
 overrides:
-  brace-expansion@<1.1.16: ^1.1.16
-  brace-expansion@<=5.0.7: ^5.0.8
-  glob@>=10.3.7 <=11.0.3: '>=11.1.0'
+  glob@>=9.0.0 <=14.0.1: ^14.0.2
+  minimatch@<11.0.1: ^11.0.1
