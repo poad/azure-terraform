@@ -1,6 +1,6 @@
 // Copyright (c) HashiCorp, Inc
 // SPDX-License-Identifier: MPL-2.0
-import "cdktn/lib/testing/adapters/jest"; // Load types for expect matchers
+import { describe, it } from "vitest";
 // import { Testing } from "cdktn";
 
 describe("My CDKTN Application", () => {

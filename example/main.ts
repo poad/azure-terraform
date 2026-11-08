@@ -1,7 +1,7 @@
 import { Construct } from "constructs";
 import { App, TerraformStack, AzurermBackend } from "cdktn";
 import { resourceGroup } from '@cdktn/provider-azurerm';
-import { AzurermProvider } from "@cdktn/provider-azurerm/lib/provider";
+import { AzurermProvider } from "@cdktn/provider-azurerm/lib/provider/index.js";
 
 class MyStack extends TerraformStack {
   constructor(scope: Construct, id: string) {
